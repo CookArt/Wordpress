@@ -1,0 +1,40 @@
+/*
+ Theme Name:   mytheme
+ Description:  Directory Theme for Wordpress
+ Author:       IHORAI Ariirau
+ Template:     mytheme
+ Version:      1.0.0
+*/
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;	
+}
+
+.blog-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.blog-nav li a:hover {
+    text-decoration: none;
+}
+
+.blog-masthead{
+    background-color: #222;
+}
+
+.current_page_item > a{
+    color: 	#FB0916 !important;
+}
+
+.vc_slide{
+    width: 100%;
+}
+
+#wds_container1_0{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
