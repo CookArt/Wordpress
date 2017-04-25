@@ -38,3 +38,25 @@
     margin-top: -10px;
     margin-bottom: 50px;
 }
+
+img.noo-logo-img.noo-logo-normal{
+    position: relative;
+    z-index: 1;
+    left: 25%;
+    top: -100%;
+}
+
+div.menu-menu-principal-container ul#menu-menu-principal{
+    float: right;
+}
+
+.vc_custom_heading{
+    color: #000;
+}
+.vc_custom_heading:before{
+    content: "";
+    position: absolute;
+    width: 6%;
+    bottom: 0;
+    border-bottom: 5px solid #FB0916;
+}

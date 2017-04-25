@@ -17,7 +17,7 @@
     <![endif]-->
 	<?php wp_head();?>
 	<a href="<?php get_home_url(); ?>" class="navbar-brand" title="<?php echo get_bloginfo( 'name' ); ?>">
-    	<img class="noo-logo-img noo-logo-normal" src="http://wordpress.local/cms/wp-content/uploads/2017/04/USINFO.png" alt="">
+    	<img class="noo-logo-img noo-logo-normal" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
     </a>
 </head>
 
