@@ -21,4 +21,14 @@ function theme_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js');
+
+// Before VC Init
+add_action( 'vc_before_init', 'vc_before_init_actions' );
+ 
+function vc_before_init_actions() {
+ 
+    // Appel du nouvel élément US info recent product pour Visual Composer
+    require_once( get_template_directory().'/vc-elements/recent-product.php' ); 
+     
+}
 ?>
